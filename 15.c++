@@ -3,8 +3,12 @@
 using namespace std;
 
 int main (void) {
-    int a;
-    cin >> a;
-    cout << 100 % a << endl;
+    int a, b; 
+    cin >> a >> b;
+    if (a < b) {
+        cout << b << endl;
+        return 0;
+    }
+    cout << a << endl;
     return 0;
 }
