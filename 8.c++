@@ -3,12 +3,7 @@
 using namespace std;
 
 int main (void) {
-    int a;
-    cin >> a;
-    if (a >= 18) {
-        cout << "Đủ tuổi" << endl;
-        return 0;
-    }
-    cout << "Chưa đủ" << endl;
-    return 0;
+    float a, b, c;
+    cin >> a >> b >> c;
+    cout << (a + b + c) / 3 << endl;
 }
