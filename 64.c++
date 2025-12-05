@@ -3,11 +3,11 @@
 using namespace std;
 
 bool t (int n) {
-    if (n <= 1 || n % 2 == 0) {
-        return false;
-    }
     if (n == 2) {
         return true;
+    }
+    if (n <= 1 || n % 2 == 0) {
+        return false;
     }
     for (int i = 2; i <= sqrt(n); i++) {
         if (i % n == 0) {
